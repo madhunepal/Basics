@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
     <style type="text/css">
         body {
@@ -22,6 +22,26 @@
             padding: 3rem 1.5rem;
             text-align: center;
         }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+            /* Add a hover effect if you want */
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
     </style>
 </head>
 
@@ -29,7 +49,7 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">FANF</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,19 +57,19 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">FANF<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Positions</a>
+                    <a class="nav-link" href="positions.html">Positions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Issues</a>
+                    <a class="nav-link" href="issues.html">Issues</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="links.html">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
 
             </ul>
@@ -70,6 +90,7 @@
             </p>
         </div>
     </div>
+    <a href="#" class="fa fa-facebook"></a>
     <!-- /.container -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -80,7 +101,7 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script>
-        (function() {
+        (function () {
             'use strict'
 
             if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
